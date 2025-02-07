@@ -14,7 +14,7 @@ int main()
 	double circumference = 2 * PI * RADIUS;	// computes circumference
     //double circumference,				// definition of circumference 
 	double area = PI * RADIUS * RADIUS;		// computes area
-    cout << "The circumference of this circle is "<< circumference << "and the radius is" RADIUS
+    cout << "The circumference of this circle is "<< circumference << "and the aera is "<< area <<endl;
 
 	// Fill in the code for the cout statement that will output (with description)
 	// the circumference
