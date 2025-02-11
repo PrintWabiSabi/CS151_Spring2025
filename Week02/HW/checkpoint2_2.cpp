@@ -1,15 +1,17 @@
 /* The following C++ program will not compile because the lines have been mixed up. */
-cout << "Success\n";
-cout << " Success\n\n";
-int main()
-cout << "Success";
-}
-using namespace std;
-// It's a mad, mad program
+
 #include <iostream>
-cout << "Success\n";
+using namespace std;
+int main()
 {
+cout << "Success\n" << "Success "<< "Success\n\n" << " Success\n" ; 
+
+
+// It's a mad, mad program
+
+
 return 0;
+}
 /*
 When the lines are properly arranged, the program should display the following
 on the screen:
