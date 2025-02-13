@@ -5,8 +5,9 @@ Refer to the data types listed in Table 2-6 for these questions.
 
 /* Write your answers below.
 ************************************************************************************************
-
-
+(A) short
+(B) Int
+(c) 20L
 
 
 
