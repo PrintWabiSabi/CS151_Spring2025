@@ -2,7 +2,7 @@ Is the variable name Sales the same as sales? Why or why not?
 
 /* Write your answer below.
 ************************************************************************************************
-
+No because sales uses small s and Sales uses capital S
 
 
 ************************************************************************************************
