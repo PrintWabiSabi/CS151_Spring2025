@@ -11,6 +11,7 @@ int main()
     char first = 'S';
     char middle = 'T';
     char last = 'C';
-    cout<< first << middle << Out
+    cout<< first << '.'<< middle << '.'<< last << endl;
+    return 0;
 
 }
