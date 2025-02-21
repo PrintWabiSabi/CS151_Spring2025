@@ -1,3 +1,5 @@
 Is the following assignment statement valid or invalid? If it is invalid, why?
 
 72 = amount;
+
+invalid. the variable can't start with a number is not idetinified as a string  either 
