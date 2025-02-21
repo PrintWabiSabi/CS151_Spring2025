@@ -10,3 +10,17 @@ My age is 26 and my weight is 180 pounds.
 (Feel free to lie to the computer about your age and your weight—it’ll
 never know!)
 */
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+    int age = 31;
+    float weight = 165;
+    
+    cout << "my age is " << age << " and my weight is "<< weight <<" pounds" << endl ;
+    
+    return 0;
+}
