@@ -10,3 +10,26 @@ If the random number is between 1 and 20 inclusively, set the critical hit varia
 If the critical hit variable is true, multiply the attack power by 2.
 Display the attack power and whether or not the attack was a critical hit.
 */
+
+#include <iostream>
+#include <string>
+#include <cmath> 
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+int main()
+{
+
+int attack = 50;
+bool Critical = false; 
+int metronome = rand()%100+1;
+
+if (metronome  <= 20 ) { Critical = true;}
+if (Critical == true) {attack = attack *2 ;         
+    cout << "Critical hit " << attack << endl;
+}
+if(Critical == false){ cout<< "wasn't a crtical hit "<< attack;}
+
+return 0; 
+}
