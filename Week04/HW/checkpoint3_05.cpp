@@ -7,10 +7,13 @@ using namespace std;
 
 int main()
 {
+    cout << "Please enter two numbers to multiply" << endl;
     double first, second, product;
     
-    cin >> first >> second;
+    cin>> first >>second;
     product = first * second;
+    cout << "The product of " << first << " and " << second << " is equal to " << product << endl;
+    
     cout << product;
     return 0;
 }
