@@ -8,3 +8,16 @@ The decimal point and any trailing zeros should be displayed.
 C) Display the number 5.789e+12 in fixed-point notation.
 D) Display the number 67 left-justified in a field of seven spaces.
 */
+
+
+#include <iostream>
+#include <iomanip>  
+
+using namespace std;
+int main() {
+cout << setw(9) << setprecision(2) << 34.789 << endl;
+cout << setw(5) << setprecision(3) << 7.0 << endl;
+cout << fixed << 5789000000000 << endl; 
+cout << setw(7) << left << 67 << endl;
+    return 0;
+}
