@@ -12,6 +12,7 @@ int main()
     cout << "to radians for you: ";
     cin >> degrees;
     radians = degrees * PI / 180;
+    cout << fixed << left << setprecision(4) << setw(5) << "radian is equal to " << radians << endl;
     // Display the value in radians left-justified, in fixed
     // point notation, with 4 places of precision, in a field
     // 5 spaces wide, making sure the decimal point is always
