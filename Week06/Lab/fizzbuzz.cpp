@@ -18,6 +18,10 @@ int main(){
 srand(time(0));
 
 int number = rand()%20001 - 10000; 
+ if (number < 0 );
+  {
+    number = number *= -1;
+  }
 
  if ( (number % 3 == 0) && (number % 5 == 0) )
  {
