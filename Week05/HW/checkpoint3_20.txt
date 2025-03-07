@@ -5,3 +5,29 @@ fmod    pow     tan
 
 ANSWER BELOW
 *******************************************************************************
+cos:
+calculate the cosine of an angle (in radians). cah adjecent/hypotuneus 
+
+log :
+ calcultate log to the base e of a number
+
+ sin : 
+ calculate sin of an angle. soh opoiste/hypotuneus
+
+ exp:
+ calculate expoential functions 
+
+ log10:
+ calculate log to the base10 of a number.
+
+ sqrt: 
+ calculates the square root of a function.
+
+ fmod :
+ calculates the division of to floats
+
+ pow: 
+ calculates the first input by the 2 second input 2^3
+
+ tan: 
+ calculate the tan of an angle. opposite / adjecent
