@@ -10,12 +10,11 @@ ANSWER BELOW
 using namespace std;
 int main()
 {
-double angle1, angle2
+double angle1, angle2;
 cout << "Enter angle1 (sin) and angle2 (cos)" << endl;
-cin >> angle1 >> angle2 >> endl;
-x = sin(angle1) + cos(angle2);
+cin >> angle1 >> angle2;
+double x = sin(angle1) + cos(angle2);
 cout << " The answer is " << x << endl;
 
-return 
-0 
+return 0;
 }
