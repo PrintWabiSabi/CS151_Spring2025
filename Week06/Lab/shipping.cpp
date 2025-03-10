@@ -19,8 +19,8 @@ int main ()
     else if (weight <= 6)
     {cout << " The cost of shipping is 3.70 " << endl; }
 
-    else if (weight <= 10 || weight >= 20)
-    {cout << "The cost of shipping is 4.80 "<< endl; }
+    else (weight <= 10 && weight >= 20);
+    {cout << "The cost of shipping is 4.80 "<< endl; };
 
     return 0;
 }
