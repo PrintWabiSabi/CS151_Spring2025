@@ -1,4 +1,4 @@
-What will the following program display?
+
 
 #include <iostream>
 using namespace std;
@@ -13,7 +13,3 @@ int main ()
     cout << (y > a) << endl;
     return 0;
 }
-
-ANSWER BELOW
-*******************************************************************************
-0 1 0 0
