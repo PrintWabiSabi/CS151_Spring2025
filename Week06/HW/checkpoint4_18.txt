@@ -4,14 +4,14 @@ result of such a combination is True or False.
 ------------------------------------------------------
 Logical Expression              Result (True or False)
 ------------------------------------------------------
-true && false                   
-true && true                    
-false && true                   
-false && false                  
-true || false                   
-true || true                    
-false || true                   
-false || false                  
+true && false                            Fale             
+true && true                              True
+false && true                             False
+false && false                           False
+true || false                           True 
+true || true                            True 
+false || true                           True
+false || false                          False
 !true                           
 !false                          
 ------------------------------------------------------
