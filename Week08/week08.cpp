@@ -16,6 +16,31 @@ using namespace std;
 
 int main()
 {
+    string digits[10] ={
+        "zero",
+        "one",
+        "two",
+        "three,"
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+    }
+    int choice;
+    cout << "Please enter a digit: ";
+    cin >> choice;
+
+    switch (choice)
+    {
+    case 0; cout << digits [0]
+        break;
+    
+    default:
+        break;
+    }
+    {}
 
     return 0;
 }
