@@ -24,21 +24,24 @@ variable. Write statements in C++ to perform the following operations:
     (C) Divide x by 7 and store the result in y.
        y = x / 7
     (D) Store '&' in z.
- 
+       z = &
     (E) Display the values of y and z on the screen.
+          cout<<"The value of  y is" << y << " The value of Z is " << z << endl; 
 
     (F) Display the rightmost digit of x on the screen.
+        cout << x % 10 << endl
 
     (G) Display the number of bytes used by an integer variable.
+    cout << sizeof(x) << endl;
 
 
 5. Is the following comment written using single-line or multi-line comment symbols?
     /* This program was written by M. A. Codewriter*/
-
+          Multi line 
 
 6. Is the following comment written using single-line or multi-line comment symbols?
     // This program was written by M. A. Codewriter
-
+            Single Line 
 
 7. Modify the following program so it prints two blank lines between each line of text.
 
@@ -47,10 +50,10 @@ variable. Write statements in C++ to perform the following operations:
 
     int main()
     {
-        cout << "Two mandolins like creatures in the";
-        cout << "dark";
-        cout << "Creating the agony of ecstasy.";
-        cout << "                    - George Barker";
+        cout << "Two mandolins like creatures in the"<< endl << endl;
+        cout << "dark"<< endl << endl;
+        cout << "Creating the agony of ecstasy.<< endl << endl;
+        cout << "                    - George Barker"<< endl << endl;
         return 0;
     }
 
@@ -67,6 +70,8 @@ variable. Write statements in C++ to perform the following operations:
             cout << freeze << endl << boil << endl;
             return 0;
         }
+           0
+           100
 
     (B) #include <iostream>
         using namespace std;
@@ -78,6 +83,9 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << y << endl;
             return 0;
         }
+        8
+        2
+
     (C) #include <iostream>
         using namespace std;
 
@@ -89,6 +97,11 @@ variable. Write statements in C++ to perform the following operations:
             cout << "you.";
             return 0;
         }
+        I am the incrediblecomputing
+        machine
+        and I will
+        amaze
+        you
     (D) #include <iostream>
         using namespace std;
 
@@ -99,6 +112,8 @@ variable. Write statements in C++ to perform the following operations:
             cout << "question\n";
             return 0;
         }
+        Be careful
+        This might/n be a trick question
 
     (E) #include <iostream>
         using namespace std;
@@ -110,3 +125,5 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << a << endl;
             return 0;
         }
+        21
+        1
