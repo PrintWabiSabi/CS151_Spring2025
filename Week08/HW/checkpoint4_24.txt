@@ -24,4 +24,4 @@ ANSWER BELOW
 
 (C) wages = ( hours > 40 ) ? wages *= 1.5 : wages*= 1
 
-(D) result = (result >= 0)
+cout << ((result >= 0) ? "The result is positive\n" : "The result is negative.\n");
