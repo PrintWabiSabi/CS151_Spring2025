@@ -9,3 +9,4 @@ else if (rate < .1)
 
 ANSWER BELOW
 *******************************************************************************
+ switch only works with exact values or constant

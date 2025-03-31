@@ -15,5 +15,22 @@ int main()
     //
     // Write the switch statement here.
     //
+    switch (userNum)
+    {
+    case 1:
+        cout << "one" << endl;
+        break;
+    
+    case 2
+        cout << "Two" << endl;
+        break; 
+
+    case 3
+        cout << "Three" << endl;
+        break;
+    default:
+    cout << "Error: Invalid number entered." << endl;
+    break
+    }
     return 0;
 }

@@ -11,3 +11,4 @@ switch (temp)
 
 ANSWER BELOW
 *******************************************************************************
+switch doesn't work on this when needs an if else statment 
