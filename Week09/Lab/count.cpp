@@ -19,14 +19,16 @@ int main()
 {
  int n; // askes user to enter n when you make the cin line
 
- int positiveCount = 0;  //count to start and stop loop
- int negativeCount = 0; //count to start and stop loop
+ 
 
- while (10 < n || 20 > n )
+ while ( n < 10 || n > 20 )
  {
-    cout << "Please enter a number between 10 and 20 exclusive" << endl;
+    cout << "Please enter a number between 10 and 20 exclusive 15 times" << endl;
     cin >> n; 
  }
+
+ int positiveCount = 0;  //count to start and stop loop
+ int negativeCount = 0; //count to start and stop loop
 
  for (int i = 0; i < n; i++){
  int num;
