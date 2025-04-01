@@ -4,6 +4,9 @@
 #include<iomanip>
 using namespace std;
 
+/*I give up this is as far i could go and that was with help to much new stuff i need practice with more before trying to
+combine it with everything else i learn feels like sensory overload with burnout from being sick*/
+
 /*Count Positive and Negative Numbers
 
 Create a file in Week09/Lab called count.cpp
