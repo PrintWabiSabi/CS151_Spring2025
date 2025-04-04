@@ -19,6 +19,7 @@ The program should print the Fibonacci number for the user-defined integer.
 #include <string>
 #include <fstream>
 
+using namespace std;
 int main()
 {
 
@@ -29,8 +30,30 @@ int current_fibonochi;
 
 last_fibonochi = 0;
 current_fibonochi = 1;
+usernum = -1;
+while (usernum < 0)
+{
+    cout << "Please enter a positive number " << endl;
+    cin >> usernum; 
+}
+if (usernum <= 1 )
+{
+    cout << usernum << endl;
+
+    return 0;
+}
+
+
 
 for ( int i = 2; i <= usernum; i++ )
+{
+       fibonochi = current_fibonochi + last_fibonochi;
+       last_fibonochi = current_fibonochi;
+       current_fibonochi = fibonochi;
+
+
+}
+   cout << fibonochi << endl;
 
 
 
