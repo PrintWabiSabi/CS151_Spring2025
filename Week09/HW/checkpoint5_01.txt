@@ -30,3 +30,9 @@ What will the following program segments display?
 
 ANSWER BELOW
 ****************************************************************************************
+(A) 32
+(B) 22
+(C) 24
+(D)26
+(E) It is true!
+(F) It is true!
