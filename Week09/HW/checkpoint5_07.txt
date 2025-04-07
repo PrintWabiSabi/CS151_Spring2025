@@ -11,3 +11,13 @@ Assume you will use a counter variable named count.
 
 ANSWER BELOW
 ****************************************************************************************
+
+inilization = int count = 1
+
+(B) count <= 50 
+
+(c)  count++
+
+(D) for (int count=1; count <=50; count++){
+    cout <<"I love to program' << endl;
+}

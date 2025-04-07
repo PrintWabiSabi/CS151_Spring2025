@@ -22,3 +22,8 @@ What will the following program segments display?
 
 ANSWER BELOW
 ****************************************************************************************
+Hello World
+
+(B) 10 
+
+(C)  ???? (need more explanation next class please)

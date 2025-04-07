@@ -13,3 +13,8 @@ What will the following program segments display?
 
 ANSWER BELOW
 ****************************************************************************************
+(A) last count before loop ends with add 5+5 so answer is 10
+
+(B) value will stop repeating at 5. it loops value and ad one till it reaches a number that is not less than 5
+
+(C) when x is lower than 14 it adds 3 to the current value of x. so it starts at 5 the 5,8,11, 14, 17
