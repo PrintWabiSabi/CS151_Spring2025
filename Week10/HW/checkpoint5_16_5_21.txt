@@ -5,16 +5,25 @@
 
 5.17 What three steps must be taken when a file is used by a program?                      ANSWER BELOW
 *******************************************************************************************************
+Open the file.
 
+Use the file (read from it or write to it).
+
+Close the file.
 *******************************************************************************************************
 
 5.18 What is the difference between a text file and a binary file?                         ANSWER BELOW
 *******************************************************************************************************
 
+
+A text file is easy readable by humans whiles a binary file is easily readable by computers
+
 *******************************************************************************************************
 
 5.19 What is the difference between sequential access and random access?                   ANSWER BELOW
 *******************************************************************************************************
+sequential acesses  reads and write data in order like 1 2 3 4. whiles acesses
+ data to be read or written at any position in the file directly.
 
 *******************************************************************************************************
 
