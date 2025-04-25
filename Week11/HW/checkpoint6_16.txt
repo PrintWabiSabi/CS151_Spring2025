@@ -2,3 +2,6 @@ What is the difference between a static local variable and a global variable?
 
 ANSWER BELOW
 *****************************************************************
+on is for the local program
+
+one is for the entire program 
