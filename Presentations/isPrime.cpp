@@ -12,10 +12,10 @@
 
 #include <iostream>
 #include <cassert>
-#include "_functions.h"
+
 
 using namespace std;
-using namespace Presentations;
+//using namespace Presentations;
 
 void isPrimeTest();
 
@@ -24,6 +24,21 @@ bool isPrime(int num); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
 int main()
 {
     isPrimeTest();
+    cout << "you passed the test!" << endl;
+
+    int num;
+    cout << "enter a number to check if it is prime";
+    cin >> num;
+
+    if (isPrime(num))
+    { 
+        cout<< "The number "<< num << " is a prime number"<< endl;}
+    
+    else
+    {
+     cout << "The number " << num << " is not a prime number"<< endl; 
+    }
+
     
     return 0;
 }
@@ -40,4 +55,16 @@ void isPrimeTest()
     assert(isPrime(15) == false);
     assert(isPrime(16) == false);
     assert(isPrime(30) == false);
+}
+bool isPrime(int num)
+{
+ if (num <= 1)
+    return false;
+
+for (int i = 2; i * i <= num; ++i)
+{
+    if (num % i == 0)
+    return false;
+}
+   return true;
 }
