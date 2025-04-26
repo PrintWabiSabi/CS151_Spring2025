@@ -13,7 +13,13 @@ using namespace std;
 
 // You must write definitions for the two functions qualify
 // and noQualify.
+void qualify(){
+    cout << "Congratualition you are qualified" << endl;
+}
 
+void noQualify(){
+    cout<< "I'm sorry you do not qualify because you did not meet on of the condition" << endl;
+}
 int main()
 {
     double salary;
