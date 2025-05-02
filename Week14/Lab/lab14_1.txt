@@ -1,6 +1,6 @@
 Create a file in Week14/Lab called school.cpp
 
-Write a fuction called lowestGrade100() that has an array of doubles
+Write a fuction called lowestGrade100() that has an array parameter of doubles
 called grades and an int parameter called size.
 The function should find the lowest grade in the array and make it 100.0.
 The function should not return any value.
@@ -23,3 +23,5 @@ Use two parallel arrays to store the letter grades and their corresponding
 minimum range values. (e,g. A: 90, B: 80, C: 70, D: 60, F: 0)
 if the grade is less than 0 or greater than 100, the function should return 'X'.
 
+Write a main function that will test the above functions.
+The main function should create an array of doubles called grades with 10 elements.
