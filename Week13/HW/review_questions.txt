@@ -4,7 +4,11 @@
     double absolute ( double number );
 *****************************************************************************************
 ANSWER HERE
+double answer = absolute (5.29)
+cout << "The answer is " << answer << endl;
 
+num = 2.2
+double answer = absolute(num)
 *****************************************************************************************
 
 33. The following statement calls a function named average. The average function returns
@@ -13,7 +17,9 @@ ANSWER HERE
     avg = average ( num1, num2, num3 );
 *****************************************************************************************
 ANSWER HERE
-
+double average(double num1, double num2, double num3){
+    cout <<  (num1 + num2+ num3) / 3
+}
 *****************************************************************************************
 
 34. A program contains the following function:

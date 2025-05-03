@@ -1,6 +1,6 @@
 6.19:   What kinds of values may be specified as default arguments?
 **********************************************************************
-ANSWER HERE
+constant values, global variables or a mix of both 
 
 **********************************************************************
 
@@ -12,6 +12,9 @@ ANSWER HERE
 **********************************************************************
 ANSWER HERE
 
+  void compute (double, int = 5, long = 65536);
+  void compute(double d, int i = 5, long l = 65536);
+
 **********************************************************************
 
 6.21:   Write the prototype and header for a function called calculate. The function
@@ -20,6 +23,8 @@ ANSWER HERE
         argument, which is 47.  
 **********************************************************************
 ANSWER HERE
+void calculate(int = 47, double&, long);
+void calculate(int i, double& d, long l)
 
 **********************************************************************
 
@@ -45,7 +50,10 @@ ANSWER HERE
             cout << first << " " << second << " " << third << endl;
         }
 **********************************************************************
-ANSWER HERE
+ANSWER HERE 5 10 15
+            9 10 15
+            6 15 15
+            4 11 16
 
 **********************************************************************
 
@@ -88,7 +96,10 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
-
+  0 0 0
+  12 4 0
+  29 15 -1
+  29 15 -1
 **********************************************************************
 
 6.24:   What is the output of the following program?
@@ -113,7 +124,7 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
-
+ 1.2
 **********************************************************************
 
 6.25:   What is the output of the following program?
@@ -145,3 +156,6 @@ ANSWER HERE
         {
             return val1 * static_cast<int>(val2);
         }
+
+
+          26 
