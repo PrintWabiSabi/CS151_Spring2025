@@ -33,6 +33,7 @@ double average(double num1, double num2, double num3){
     assigns its return value to the variable final_velocity.
 *****************************************************************************************
 ANSWER HERE
+double final_velocity = velocity(10.0, 50.5, 100);
 
 *****************************************************************************************
 
@@ -58,6 +59,10 @@ ANSWER HERE
     char initial;
 *****************************************************************************************
 ANSWER HERE
+cout << "Calling age, income, and initial:" << endl;
+display(age, income, initial);
+
+
 
 *****************************************************************************************
 
@@ -80,7 +85,7 @@ Each of the following functions has errors. Locate as many errors as you can.
     }
 *****************************************************************************************
 ANSWER HERE
-
+int product ( int num1, int num2, int num3 )
 *****************************************************************************************
 
 57. double athird ( double number )
@@ -90,7 +95,7 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
-
+ int value should be changed to double 
 *****************************************************************************************
 
 58. void area(int length = 30, int width)
@@ -109,7 +114,7 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
-
+& should be before value 
 *****************************************************************************************
 
 60. (Overloaded functions)
