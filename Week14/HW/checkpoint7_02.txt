@@ -8,4 +8,13 @@ string names[size];
 ANSWER BELOW
 ************************************************************************
 
+Arrays can't be negative
+
+4.5 is a double not a float
+
+??????
+
+size is not a number so it can't be an array size
+
+
 ************************************************************************
