@@ -2,5 +2,5 @@ When an array name is passed to a function, what is actually being passed?
 
 ANSWER BELOW
 ************************************************************************
-
+the adress of the elemnt and it won't know the array size
 ************************************************************************
