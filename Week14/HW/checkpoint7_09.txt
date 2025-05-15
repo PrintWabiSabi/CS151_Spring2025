@@ -10,10 +10,10 @@ explain why.)
 
 ANSWER BELOW
 ************************************************************************
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
-(F) 
+(A)  Valid
+(B)  Not valid more than the array declared 
+(C) Valid 
+(D)  Not valid, missing values
+(E)  Valid
+(F)  no array size declared 
 ************************************************************************

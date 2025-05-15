@@ -2,5 +2,6 @@ What is “array bounds checking”? Does C++ perform it?
 
 ANSWER BELOW
 ************************************************************************
-
+array bound checking ensures you only use things in your array index and not go
+ pass it. C ++ does not have such a setting to automatically array bound checking
 ************************************************************************

@@ -2,5 +2,6 @@ What is the difference between an array’s size declarator and a subscript?
 
 ANSWER BELOW
 ************************************************************************
-
+The size declaration tell you how big the array is
+the subscript tells you the position of the element 
 ************************************************************************
