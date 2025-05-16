@@ -1,6 +1,6 @@
 5.16 What is an output file? What is an input file?                                        ANSWER BELOW
 *******************************************************************************************************
-
+and output file save data and a input file load data
 *******************************************************************************************************
 
 5.17 What three steps must be taken when a file is used by a program?                      ANSWER BELOW
