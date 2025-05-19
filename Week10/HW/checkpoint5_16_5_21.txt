@@ -29,10 +29,10 @@ sequential acesses  reads and write data in order like 1 2 3 4. whiles acesses
 
 5.20 What type of file stream object do you create if you want to write data to a file?    ANSWER BELOW
 *******************************************************************************************************
-
+ofstream
 *******************************************************************************************************
 
 5.21 What type of file stream object do you create if you want to read data from a file?   ANSWER BELOW
 *******************************************************************************************************
-
+ifstream
 *******************************************************************************************************
